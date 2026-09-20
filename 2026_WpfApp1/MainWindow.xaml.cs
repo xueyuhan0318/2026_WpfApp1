@@ -20,5 +20,36 @@ namespace _2026_WpfApp1
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Submit(object sender, RoutedEventArgs e)
+        {
+            string name=textname.Text;
+            string phone= textphone.Text;
+
+            string message= "姓名：" + name + "\n" + "電話：" + phone;
+
+            MessageBox.Show(message);
+        }
+
+        private void Computerbutton_click(object sender, RoutedEventArgs e)
+        {
+            int n =int.Parse(textnumber.Text);
+
+            string result = "";
+            for (int i = 1; i <= n; i++)
+            {
+                for (int j = 1; j <= n; j++)
+                {
+                    result += $"{i}*{j}={i * j}\t\t";
+                }
+                result += "\n";
+            }
+            resulttestBlock.Text = result;
+        }
     }
 }
