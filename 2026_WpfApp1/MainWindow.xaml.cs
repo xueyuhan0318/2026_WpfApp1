@@ -47,7 +47,7 @@ namespace _2026_WpfApp1
                 {
                     result += $"{i}*{j}={i * j}\t\t";
                 }
-                result += "\n";
+                result += "\n\n";
             }
             resulttestBlock.Text = result;
         }
