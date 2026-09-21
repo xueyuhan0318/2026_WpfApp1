@@ -17,7 +17,7 @@
         <Label x:Name="number" Content="輸入一個數值：" HorizontalAlignment="Left" Margin="27,131,0,0" VerticalAlignment="Top" Foreground="#FFD24949" FontWeight="Bold" FontSize="20"/>
         <TextBox x:Name="textnumber" HorizontalAlignment="Left" Margin="180,136,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="82" Height="26" VerticalContentAlignment="Center"/>
         <Button x:Name="table" Content="顯示 N*N 九九乘法表" HorizontalAlignment="Left" Margin="296,136,0,0" VerticalAlignment="Top" Click="Computerbutton_click" FontWeight="Bold" Height="26" Width="128"/>
-        <TextBlock x:Name="resulttestBlock" Margin="34,180,34,30" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" TextWrapping="Wrap" Background="#FFF3CFF2" Padding="30" FontSize="26" FontFamily="Consolas, Microsoft JhengHei" />
+        <TextBlock x:Name="resulttestBlock" HorizontalAlignment="Center" Margin="0,171,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="254" Width="732" Background="#FFF3CFF2" Padding="20,20,20,20" FontFamily="Consolas, Courier New, Microsoft JhengHei" FontSize="18"/>
 
 
     </Grid>
